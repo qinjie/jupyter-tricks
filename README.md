@@ -9,7 +9,7 @@ pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install
 ```
 
-### Enable Use extensions
+## Enable and Use Extensions
 
 ```
 # zenmode: Give Zenmode functionality to the IPython notebook
