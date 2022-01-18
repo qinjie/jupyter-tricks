@@ -30,9 +30,19 @@ jupyter nbextension enable runtools/main
 # Tree filter: Search files inside Jupyter Notebook
 jupyter nbextension enable tree-filter/index
 
-# Snippet menu: let you insert code and markdown snippets
+# Snippet menu: Let you insert code and markdown snippets
 jupyter nbextension enable snippets/main
 
-# Codefolding: allows code folding in code cells using the shortcut Alt+F
+# Codefolding: Allows code folding in code cells using the shortcut Alt+F
 jupyter nbextension enable codefolding/main
+
+# Autopep8: Reformat/prettify the contents of code cells
+jupyter nbextension enable code_prettify/autopep8
+```
+
+### Install Required Python Libraries
+
+Required by Autopep
+```
+pip install autopep8
 ```
